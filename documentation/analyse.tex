@@ -1,8 +1,56 @@
 \chapter{Analyse}\label{chap:Analyse}
 
+\section{Use Case Beschreibungen}
 
-Liste
-\begin{itemize}
-\item Nummer 1
-\item Nummer 2
-\end{itemize}
+\subsection{Use Case "Spiel vorbereiten"}
+\begin{labeling}[:]{Offene Punkte}
+\item [Akteure] Spieler
+\item [Priorität] Wichtig
+\item [Beschreibung] Die Spieler wählen aus den vorhandenen Kategorien 4 aus. Die Fragen jeder Kategorie werden gemischt. Jeder Spieler wählt eine Farbe für sich aus.
+\item [Vorbedigungen] Es existieren mindestens 4 Kategorien
+\item [Offene Punkte] Was wird gemacht, wenn weniger als 4 Kategorien existieren.
+\end{labeling}
+
+\subsection{Use Case "Spiel starten"}
+\begin{labeling}[:]{Offene Punkte}
+\item [Akteure] Spieler
+\item [Priorität] Essentiell
+\item [Beschreibung] Der Spieler erhält initial seine 3 Wissensstreiter in der gewählten Farbe und platziert sie auf seinen Heimatfeldern. Zusätzlich erhält der Spieler 4 Wissensstandanzeiger, die jedoch noch nicht auf dem Spielfeld platziert werden.
+\item [Vorbedigungen] Mindestens 2 Spieler vorhanden
+\item [Offene Punkte]
+
+\subsection{Use Case "Startspieler bestimmen"}
+\begin{labeling}[:]{Offene Punkte}
+\item [Akteure] Spieler
+\item [Priorität] Essentiell
+\item [Beschreibung] Die Spieler würfeln der Reihe nach einmal mit einem Würfel. Der Spieler, dessen Wurf die höchste Augenzahl aufweist, darf beginnen. Sollten mehrere Spieler die gleiche höchste Augenzahl gewürfelt haben, so müssen nur diese erneut untereinander auswürfeln, wer beginnt. Dies wird so lange gemacht, bis ein Spieler eindeutig als Startspieler ausgemacht ist.
+\item [Vorbedigungen] Spiel gestartet
+\item [Offene Punkte]
+
+\subsection{Use Case "Spielzug machen"}
+\begin{labeling}[:]{Offene Punkte}
+\item [Akteure] Spieler
+\item [Priorität] Essentiell
+\item [Beschreibung] 
+\item [Vorbedigungen] Vorheriger Spielzug beendet. Bei erstem Spielzug: Startspieler bestimmt.
+\item [Offene Punkte]
+\end{labeling}end{labeling}
+
+\subsection{Use Case "Kategorie hinzufügen"}
+\begin{labeling}[:]{Offene Punkte}
+\item [Akteure] Spieler
+\item [Priorität] Unwichtig
+\item [Beschreibung]
+\item [Vorbedigungen]
+\item [Offene Punkte]
+\end{labeling}end{labeling}
+
+\subsection{Use Case "Frage hinzufügen"}
+\begin{labeling}[:]{Offene Punkte}
+\item [Akteure] Spieler
+\item [Priorität] Unwichtig
+\item [Beschreibung]
+\item [Vorbedigungen] Kategorie vorhanden
+\item [Offene Punkte]
+\end{labeling}end{labeling}
+
