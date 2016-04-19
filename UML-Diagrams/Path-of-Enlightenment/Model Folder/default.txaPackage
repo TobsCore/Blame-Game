@@ -7,6 +7,8 @@
 		<property name="$name" value="Spieler"/>
 		<link uin="ieje0rin7j55oz-kp6dkh">
 			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="supplierCardinality" value="1"/>
+			<property name="clientCardinality" value="2..4"/>
 			<participant referencedUin="design:node:::8bho0jin7j166dx7zmao" role="Client"></participant>
 			<participant referencedUin="design:node:::gj7tthin7j24wcx4hxbq:8krugmin7j1env-xag1op" role="Supplier"></participant>
 		</link>
@@ -17,6 +19,7 @@
 		</link>
 		<link uin="ieje0rin7j5dequuh4e1">
 			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="clientCardinality" value="2..4"/>
 			<participant referencedUin="design:node:::8bho0jin7j166dx7zmao" role="Client"></participant>
 			<participant referencedUin="design:node:::gj7tthin7j2tl6cpl0nb:8krugmin7j1env-xag1op" role="Supplier"></participant>
 		</link>
@@ -34,6 +37,11 @@
 			<property name="$metaclass" value="KernelAssociation20"/>
 			<participant referencedUin="design:node:::8bho0jin7j166dx7zmao" role="Client"></participant>
 			<participant referencedUin="design:node:::gj7tthin7j3ef69j53v0:8krugmin7j1env-xag1op" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rin7kqja2gtmtev">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jin7j166dx7zmao" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthin7kq2ay-p5lyk3:8krugmin7j1env-xag1op" role="Supplier"></participant>
 		</link>
 	</node>
 	<node uin="8krugmin7j1env-xag1op">
@@ -63,5 +71,24 @@
 			<property name="$metaclass" value="UseCase20"/>
 			<property name="$name" value="Frage hinzufügen"/>
 		</node>
+		<node uin="gj7tthin7kq2ay-p5lyk3">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="Fragerunde"/>
+			<link uin="ieje0rin7kq65v-a29r5z">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthin7kq2ay-p5lyk3:8krugmin7j1env-xag1op" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthin7j30j6h0zz66:8krugmin7j1env-xag1op" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+	<node uin="8bho0jin7k9xabf8xkhv">
+		<property name="$metaclass" value="Actor20"/>
+		<property name="$name" value="Gegenspieler"/>
+		<link uin="ieje0rin7kc7uif0omh6">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="clientCardinality" value="1"/>
+			<participant referencedUin="design:node:::8bho0jin7k9xabf8xkhv" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthin7kq2ay-p5lyk3:8krugmin7j1env-xag1op" role="Supplier"></participant>
+		</link>
 	</node>
 </nodeSet>

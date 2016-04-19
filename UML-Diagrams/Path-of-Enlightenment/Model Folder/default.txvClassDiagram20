@@ -6,7 +6,7 @@
 		<property name="$defaultDiagram" value="true"/>
 		<property name="$metaclass" value="ClassDiagram20"/>
 		<reference referencedUin="design:view:::V-jr6xbain7j0887xk9p6v">
-			<property name="bounds" value="5,5,208,90"/>
+			<property name="bounds" value="5,5,208,106"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 	</view>
