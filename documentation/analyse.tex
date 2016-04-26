@@ -31,9 +31,9 @@
 \item [Akteure] Spieler
 \item [Priorität] Essentiell
 \item [Beschreibung] Hat ein Spieler alle 3 Wissensstreiter auf seinen Heimatfeldern, darf er in diesem Zug 3 Mal würfeln um einen Wissensstreiter ins Spiel zu bringen. Er bringt einen seiner Wissensstreiter ins Spiel, indem er eine 6 würfelt. Würfelt er innerhalb dieser 3 Würfe eine 6, so wird einer seiner Wissensstreiter auf dem Pfad des Wissens platziert (auf dem entsprechenden Feld mit der Spielerfarbe) und sein Zug ist beendet. Sollte der Spieler nach den 3 Würfen keine 6 gewürfelt haben, so wird der Zug beendet und der nächste Spieler nach dem Uhrzeigersinn ist an der Reihe. \\
-Hat ein Spieler mindestens einen seiner Wissensstreiter auf dem Pfad des Wissens, so würfelt er nur ein Mal. Würfelt er eine 6 und hat noch einen Wissensstreiter auf einem Heimatfeld, so muss er diesen ins Spiel bringen. 
+Hat ein Spieler mindestens einen seiner Wissensstreiter auf dem Pfad des Wissens, so würfelt er nur ein Mal. Würfelt er eine 6 und hat noch einen Wissensstreiter auf einem Heimatfeld, so muss er diesen ins Spiel bringen.
 \\
-Andernfalls kann der Spieler einen seiner Wissensstreiter um die gewürfelte Augenzahl auf dem Pfad nach vorne setzen. Er darf jedoch keinen seiner Wissensstreiter auf ein Feld setzen, auf dem sich schon ein anderer Wissensstreiter von ihm befindet. 
+Andernfalls kann der Spieler einen seiner Wissensstreiter um die gewürfelte Augenzahl auf dem Pfad nach vorne setzen. Er darf jedoch keinen seiner Wissensstreiter auf ein Feld setzen, auf dem sich schon ein anderer Wissensstreiter von ihm befindet.
 \item [Vorbedingungen] Vorheriger Spielzug ist beendet worden. Bei erstem Spielzug: Startspieler bestimmt.
 \item [Offene Punkte]
 \end{labeling}
@@ -44,7 +44,7 @@ Andernfalls kann der Spieler einen seiner Wissensstreiter um die gewürfelte Aug
 \item [Priorität] Essentiell
 \item [Beschreibung] Kommt einer der Wissensstreiter auf ein Feld, auf dem bereits ein Wissensstreiter eines anderes Spieler steht, so beginnt eine Fragerunde mit diesem Mitspieler. Dies gilt auch dann, wenn ein Spieler einen seiner Wissensstreiter gerade erst von seinen Heimatfeldern auf den Pfad bringt und sein Startfeld auf dem Pfad durch einen anderen Spieler belegt ist.
 \\
-Der Spieler stellt dann seinem Mitspieler (auch Geprüfter genannt) eine Frage aus einer der 4 Kategorien. Kann der Geprüfte die Frage beantworten, so kann dieser seinen Wissensstandanzeiger für die gewählte Kategorie auf die nächst höhere Stufe setzen. Ist die höchste Stufe bereits erreicht worden, so kann ein Wissensstandanzeiger in einer anderen Kategorie (die von dem Geprüften bestimmt wird) erhöht werden. Im Anschluss wird der Wissensstreiter des Geprüften auf dessen Startfeld gesetzt. Befindet sich dort bereits ein Wissensstreiter des selben Spielers, so wandert der Wissensstreiter auf eines der Heimatfelder. 
+Der Spieler stellt dann seinem Mitspieler (auch Geprüfter genannt) eine Frage aus einer der 4 Kategorien. Kann der Geprüfte die Frage beantworten, so kann dieser seinen Wissensstandanzeiger für die gewählte Kategorie auf die nächst höhere Stufe setzen. Ist die höchste Stufe bereits erreicht worden, so kann ein Wissensstandanzeiger in einer anderen Kategorie (die von dem Geprüften bestimmt wird) erhöht werden. Im Anschluss wird der Wissensstreiter des Geprüften auf dessen Startfeld gesetzt. Befindet sich dort bereits ein Wissensstreiter des selben Spielers, so wandert der Wissensstreiter auf eines der Heimatfelder.
 \\
 Sollte der Geprüfte die Frage jedoch nicht korrekt beantworten können, wird der Wissensstandanzeiger eine Stufe herabgesetzt und der Wissensstreiter landet direkt auf einem der Heimatfelder. Im Anschluss muss der Fragestellende die selbe Frage beantworten. Wenn er sie richtig beantwortet, bleibt seine Spielfigur auf dem Feld stehen und ansonsten gelten die selben Regeln, wie bei dem Geprüften. \\
 
@@ -79,10 +79,10 @@ Die Spielvorbereitung ist wichtig, da hierüber das Spielgeschehen maßgeblich g
 \section{Erste Iteration}
 Für die erste Iteration werden lediglich die als \texttt{essentiell} priorisierten Use Cases implementiert. Dies sind die Folgenden
 
-\begin{itemize}
-\item Spiel starten
+\begin{enumerate}
 \item Startspieler bestimmen
 \item Spielzug machen
-\end{itemize}
+\item Fragerunde
+\end{enumerate}
 
 Die Begründung für die Auswahl liegt in der Gewichtung, siehe hierzu \ref{sec:begruendung-prio}
