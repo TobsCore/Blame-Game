@@ -88,7 +88,7 @@
         <path d="M355 286 L355 297 L366 297 L366 286 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath28">
-        <path d="M0 0 L0 45 L105 45 L105 0 Z" />
+        <path d="M0 0 L0 57 L101 57 L101 0 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath29">
         <path d="M625 143 L625 154 L636 154 L636 143 Z" />
@@ -109,7 +109,7 @@
         <path d="M55 269 L55 280 L66 280 L66 269 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath35">
-        <path d="M0 0 L0 15 L151 15 L151 0 Z" />
+        <path d="M0 0 L0 60 L132 60 L132 0 Z" />
       </clipPath>
     </defs>
     <g style="fill:white; stroke:white;">
@@ -153,7 +153,7 @@
       <text x="0" y="13" transform="translate(220,162)" style="font-size:13; clip-path:url(#clipPath19); fill:black; stroke:none;" xml:space="preserve">Zug zulässig?</text>
       <rect x="40" y="282" width="82" style="clip-path:url(#clipPath13); fill:rgb(173,216,230); stroke:none;" rx="4" ry="4" height="30" />
       <rect x="40" y="282" width="81" style="clip-path:url(#clipPath13); fill:none; stroke:black;" rx="4" ry="4" height="29" />
-      <text x="0" y="13" transform="translate(45,289)" style="font-size:13; clip-path:url(#clipPath20); fill:black; stroke:none;" xml:space="preserve">Fragerunde</text>
+      <text x="0" y="13" transform="translate(45,289)" style="font-size:13; clip-path:url(#clipPath20); fill:blue; stroke:none;" xml:space="preserve">Fragerunde</text>
       <circle style="clip-path:url(#clipPath14); stroke:none;" r="8.5" cx="79.5" cy="347.5" />
       <circle style="clip-path:url(#clipPath14); fill:none; stroke:black;" r="8.5" cx="79.5" cy="347.5" />
       <circle style="clip-path:url(#clipPath21); fill:black; stroke:none;" r="5.5" cx="79.5" cy="347.5" />
@@ -184,15 +184,17 @@
       <path d="M238 195 L360 195 L360 297" style="fill:none; clip-path:url(#clipPath1); stroke:rgb(0,0,127);" />
       <polygon style="fill:rgb(0,0,127); clip-path:url(#clipPath27); stroke:none;" points=" 360 296 365 286 360 296 355 286 360 296" />
       <polygon style="fill:none; clip-path:url(#clipPath27); stroke:rgb(0,0,127);" points=" 360 296 365 286 360 296 355 286 360 296" />
-      <text x="0" y="13" transform="translate(362,202)" style="font-size:13; clip-path:url(#clipPath28); fill:black; stroke:none;" xml:space="preserve">[Eigener</text>
-      <text x="0" y="28" transform="translate(362,202)" style="font-size:13; clip-path:url(#clipPath28); fill:black; stroke:none;" xml:space="preserve">Wissenstreiter</text>
-      <text x="0" y="43" transform="translate(362,202)" style="font-size:13; clip-path:url(#clipPath28); fill:black; stroke:none;" xml:space="preserve">bereits auf Feld]</text>
+      <text x="0" y="13" transform="translate(362,202)" style="font-size:13; clip-path:url(#clipPath28); fill:black; stroke:none;" xml:space="preserve">[Feld durch</text>
+      <text x="0" y="28" transform="translate(362,202)" style="font-size:13; clip-path:url(#clipPath28); fill:black; stroke:none;" xml:space="preserve">eigenen</text>
+      <text x="0" y="43" transform="translate(362,202)" style="font-size:13; clip-path:url(#clipPath28); fill:black; stroke:none;" xml:space="preserve">Wissensstreiter</text>
+      <text x="0" y="58" transform="translate(362,202)" style="font-size:13; clip-path:url(#clipPath28); fill:black; stroke:none;" xml:space="preserve">belegt]</text>
       <path d="M238 195 L360 195 L360 297" style="fill:none; clip-path:url(#clipPath1); stroke:rgb(0,0,127);" />
       <polygon style="fill:rgb(0,0,127); clip-path:url(#clipPath27); stroke:none;" points=" 360 296 365 286 360 296 355 286 360 296" />
       <polygon style="fill:none; clip-path:url(#clipPath27); stroke:rgb(0,0,127);" points=" 360 296 365 286 360 296 355 286 360 296" />
-      <text x="0" y="13" transform="translate(362,202)" style="font-size:13; clip-path:url(#clipPath28); fill:black; stroke:none;" xml:space="preserve">[Eigener</text>
-      <text x="0" y="28" transform="translate(362,202)" style="font-size:13; clip-path:url(#clipPath28); fill:black; stroke:none;" xml:space="preserve">Wissenstreiter</text>
-      <text x="0" y="43" transform="translate(362,202)" style="font-size:13; clip-path:url(#clipPath28); fill:black; stroke:none;" xml:space="preserve">bereits auf Feld]</text>
+      <text x="0" y="13" transform="translate(362,202)" style="font-size:13; clip-path:url(#clipPath28); fill:black; stroke:none;" xml:space="preserve">[Feld durch</text>
+      <text x="0" y="28" transform="translate(362,202)" style="font-size:13; clip-path:url(#clipPath28); fill:black; stroke:none;" xml:space="preserve">eigenen</text>
+      <text x="0" y="43" transform="translate(362,202)" style="font-size:13; clip-path:url(#clipPath28); fill:black; stroke:none;" xml:space="preserve">Wissensstreiter</text>
+      <text x="0" y="58" transform="translate(362,202)" style="font-size:13; clip-path:url(#clipPath28); fill:black; stroke:none;" xml:space="preserve">belegt]</text>
       <path d="M481 320 L630 320 L630 143" style="fill:none; clip-path:url(#clipPath1); stroke:rgb(0,0,127);" />
       <polygon style="fill:rgb(0,0,127); clip-path:url(#clipPath29); stroke:none;" points=" 630 143 625 153 630 143 635 153 630 143" />
       <polygon style="fill:none; clip-path:url(#clipPath29); stroke:rgb(0,0,127);" points=" 630 143 625 153 630 143 635 153 630 143" />
@@ -222,11 +224,17 @@
       <path d="M189 200 L60 200 L60 280" style="fill:none; clip-path:url(#clipPath1); stroke:rgb(0,0,127);" />
       <polygon style="fill:rgb(0,0,127); clip-path:url(#clipPath34); stroke:none;" points=" 60 279 65 269 60 279 55 269 60 279" />
       <polygon style="fill:none; clip-path:url(#clipPath34); stroke:rgb(0,0,127);" points=" 60 279 65 269 60 279 55 269 60 279" />
-      <text x="0" y="13" transform="translate(22,182)" style="font-size:13; clip-path:url(#clipPath35); fill:black; stroke:none;" xml:space="preserve">[Gegenspieler auf Feld]</text>
+      <text x="0" y="13" transform="translate(62,202)" style="font-size:13; clip-path:url(#clipPath35); fill:black; stroke:none;" xml:space="preserve">[Feld durch</text>
+      <text x="0" y="28" transform="translate(62,202)" style="font-size:13; clip-path:url(#clipPath35); fill:black; stroke:none;" xml:space="preserve">Wissensstreiter</text>
+      <text x="0" y="43" transform="translate(62,202)" style="font-size:13; clip-path:url(#clipPath35); fill:black; stroke:none;" xml:space="preserve">eines Gegenspielers</text>
+      <text x="0" y="58" transform="translate(62,202)" style="font-size:13; clip-path:url(#clipPath35); fill:black; stroke:none;" xml:space="preserve">belegt]</text>
       <path d="M189 200 L60 200 L60 280" style="fill:none; clip-path:url(#clipPath1); stroke:rgb(0,0,127);" />
       <polygon style="fill:rgb(0,0,127); clip-path:url(#clipPath34); stroke:none;" points=" 60 279 65 269 60 279 55 269 60 279" />
       <polygon style="fill:none; clip-path:url(#clipPath34); stroke:rgb(0,0,127);" points=" 60 279 65 269 60 279 55 269 60 279" />
-      <text x="0" y="13" transform="translate(22,182)" style="font-size:13; clip-path:url(#clipPath35); fill:black; stroke:none;" xml:space="preserve">[Gegenspieler auf Feld]</text>
+      <text x="0" y="13" transform="translate(62,202)" style="font-size:13; clip-path:url(#clipPath35); fill:black; stroke:none;" xml:space="preserve">[Feld durch</text>
+      <text x="0" y="28" transform="translate(62,202)" style="font-size:13; clip-path:url(#clipPath35); fill:black; stroke:none;" xml:space="preserve">Wissensstreiter</text>
+      <text x="0" y="43" transform="translate(62,202)" style="font-size:13; clip-path:url(#clipPath35); fill:black; stroke:none;" xml:space="preserve">eines Gegenspielers</text>
+      <text x="0" y="58" transform="translate(62,202)" style="font-size:13; clip-path:url(#clipPath35); fill:black; stroke:none;" xml:space="preserve">belegt]</text>
     </g>
   </g>
 </svg>

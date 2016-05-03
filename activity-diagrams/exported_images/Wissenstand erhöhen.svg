@@ -16,55 +16,55 @@
         <path d="M268 0 L268 15 L408 15 L408 0 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath4">
-        <path d="M40 36 L40 338 L441 338 L441 36 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5">
-        <path d="M40 36 L40 51 L441 51 L441 36 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
-        <path d="M105 0 L105 15 L285 15 L285 0 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
-        <path d="M240 122 L240 152 L300 152 L300 122 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
-        <path d="M160 69 L160 84 L175 84 L175 69 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath9">
-        <path d="M76 242 L76 272 L378 272 L378 242 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath10">
-        <path d="M141 302 L141 320 L159 320 L159 302 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath11">
-        <path d="M240 62 L240 92 L300 92 L300 62 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath12">
-        <path d="M7 0 L7 45 L153 45 L153 0 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath13">
-        <path d="M0 0 L0 15 L292 15 L292 0 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath14">
-        <path d="M144 305 L144 317 L156 317 L156 305 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath15">
-        <path d="M3 0 L3 15 L7 15 L7 0 Z" />
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath16">
         <path d="M460 36 L460 338 L701 338 L701 36 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5">
         <path d="M460 36 L460 51 L701 51 L701 36 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
         <path d="M93 0 L93 15 L138 15 L138 0 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
         <path d="M480 122 L480 181 L661 181 L661 122 Z" />
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath20">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
         <path d="M2 0 L2 30 L168 30 L168 0 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath9">
+        <path d="M40 36 L40 338 L441 338 L441 36 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath10">
+        <path d="M40 36 L40 51 L441 51 L441 36 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath11">
+        <path d="M105 0 L105 15 L285 15 L285 0 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath12">
+        <path d="M240 122 L240 152 L300 152 L300 122 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath13">
+        <path d="M160 69 L160 84 L175 84 L175 69 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath14">
+        <path d="M76 242 L76 272 L431 272 L431 242 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath15">
+        <path d="M141 302 L141 320 L159 320 L159 302 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath16">
+        <path d="M240 62 L240 92 L300 92 L300 62 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17">
+        <path d="M3 0 L3 45 L178 45 L178 0 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18">
+        <path d="M0 0 L0 15 L345 15 L345 0 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath19">
+        <path d="M144 305 L144 317 L156 317 L156 305 Z" />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath20">
+        <path d="M3 0 L3 15 L7 15 L7 0 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath21">
         <path d="M469 130 L469 141 L480 141 L480 130 Z" />
@@ -97,48 +97,48 @@
       <rect x="35" y="15" width="686" style="clip-path:url(#clipPath2); stroke:none;" rx="4" ry="4" height="326" />
       <rect x="35" y="15" width="685" style="clip-path:url(#clipPath2); fill:none; stroke:black;" rx="4" ry="4" height="325" />
       <text x="268" y="13" transform="translate(40,15)" style="font-size:13; clip-path:url(#clipPath3); fill:black; stroke:none;" xml:space="preserve">Wissenstand erhöhen</text>
-      <rect x="40" y="36" width="401" style="clip-path:url(#clipPath4); stroke:none;" height="302" />
-      <rect x="40" y="36" width="400" style="clip-path:url(#clipPath4); fill:none; stroke:black;" height="301" />
-      <rect x="40" y="36" width="401" style="clip-path:url(#clipPath5); stroke:none;" height="15" />
-      <rect x="40" y="36" width="400" style="clip-path:url(#clipPath5); fill:none; stroke:black;" height="14" />
-      <text x="105" y="13" transform="translate(45,36)" style="font-size:13; clip-path:url(#clipPath6); fill:black; stroke:none;" xml:space="preserve">Path of Enlightenment Spiel</text>
-      <polygon points=" 240 136 269 122 299 136 269 151 240 136" transform="translate(3,3)" style="fill:rgb(153,153,153); clip-path:url(#clipPath7); stroke:none;" />
-      <polygon points=" 240 136 269 122 299 136 269 151 240 136" transform="translate(3,3)" style="fill:none; clip-path:url(#clipPath7); stroke:rgb(153,153,153);" />
-      <circle transform="translate(3,3)" style="clip-path:url(#clipPath8); fill:rgb(153,153,153); stroke:none;" r="7" cx="167" cy="76" />
-      <circle transform="translate(3,3)" style="clip-path:url(#clipPath8); fill:none; stroke:rgb(153,153,153);" r="7" cx="167" cy="76" />
-      <rect x="76" y="242" transform="translate(3,3)" width="302" style="clip-path:url(#clipPath9); fill:rgb(153,153,153); stroke:none;" rx="4" ry="4" height="30" />
-      <rect x="76" y="242" transform="translate(3,3)" width="301" style="clip-path:url(#clipPath9); fill:none; stroke:rgb(153,153,153);" rx="4" ry="4" height="29" />
-      <circle transform="translate(3,3)" style="clip-path:url(#clipPath10); fill:rgb(153,153,153); stroke:none;" r="8.5" cx="149.5" cy="310.5" />
-      <circle transform="translate(3,3)" style="clip-path:url(#clipPath10); fill:none; stroke:rgb(153,153,153);" r="8.5" cx="149.5" cy="310.5" />
-      <polygon points=" 240 76 269 62 299 76 269 91 240 76" transform="translate(3,3)" style="fill:rgb(153,153,153); clip-path:url(#clipPath11); stroke:none;" />
-      <polygon points=" 240 76 269 62 299 76 269 91 240 76" transform="translate(3,3)" style="fill:none; clip-path:url(#clipPath11); stroke:rgb(153,153,153);" />
-      <polygon style="clip-path:url(#clipPath7); stroke:none;" points=" 240 136 269 122 299 136 269 151 240 136" />
-      <polygon style="fill:none; clip-path:url(#clipPath7); stroke:black;" points=" 240 136 269 122 299 136 269 151 240 136" />
-      <text x="7" y="13" transform="translate(80,122)" style="font-size:13; clip-path:url(#clipPath12); fill:black; stroke:none;" xml:space="preserve">Wissensstandanzeiger</text>
-      <text x="8" y="28" transform="translate(80,122)" style="font-size:13; clip-path:url(#clipPath12); fill:black; stroke:none;" xml:space="preserve">für geprüfte Kategorie</text>
-      <text x="48" y="43" transform="translate(80,122)" style="font-size:13; clip-path:url(#clipPath12); fill:black; stroke:none;" xml:space="preserve">auf max.?</text>
-      <circle style="clip-path:url(#clipPath8); fill:black; stroke:none;" r="7" cx="167" cy="76" />
-      <circle style="clip-path:url(#clipPath8); fill:none; stroke:black;" r="7" cx="167" cy="76" />
-      <rect x="76" y="242" width="302" style="clip-path:url(#clipPath9); stroke:none;" rx="4" ry="4" height="30" />
-      <rect x="76" y="242" width="301" style="clip-path:url(#clipPath9); fill:none; stroke:black;" rx="4" ry="4" height="29" />
-      <text x="0" y="13" transform="translate(81,249)" style="font-size:13; clip-path:url(#clipPath13); fill:black; stroke:none;" xml:space="preserve">Wissensstandanzeiger für Kategorie erhöhen</text>
-      <circle style="clip-path:url(#clipPath10); stroke:none;" r="8.5" cx="149.5" cy="310.5" />
-      <circle style="clip-path:url(#clipPath10); fill:none; stroke:black;" r="8.5" cx="149.5" cy="310.5" />
-      <circle style="clip-path:url(#clipPath14); fill:black; stroke:none;" r="5.5" cx="149.5" cy="310.5" />
-      <polygon style="clip-path:url(#clipPath11); stroke:none;" points=" 240 76 269 62 299 76 269 91 240 76" />
-      <polygon style="fill:none; clip-path:url(#clipPath11); stroke:black;" points=" 240 76 269 62 299 76 269 91 240 76" />
-      <text x="3" y="13" transform="translate(265,102)" style="font-size:13; clip-path:url(#clipPath15); fill:black; stroke:none;" xml:space="preserve"> </text>
-      <rect x="460" y="36" width="241" style="clip-path:url(#clipPath16); stroke:none;" height="302" />
-      <rect x="460" y="36" width="240" style="clip-path:url(#clipPath16); fill:none; stroke:black;" height="301" />
-      <rect x="460" y="36" width="241" style="clip-path:url(#clipPath17); stroke:none;" height="15" />
-      <rect x="460" y="36" width="240" style="clip-path:url(#clipPath17); fill:none; stroke:black;" height="14" />
-      <text x="93" y="13" transform="translate(465,36)" style="font-size:13; clip-path:url(#clipPath18); fill:black; stroke:none;" xml:space="preserve">Spieler</text>
-      <rect x="480" y="122" transform="translate(3,3)" width="181" style="clip-path:url(#clipPath19); fill:rgb(153,153,153); stroke:none;" rx="4" ry="4" height="59" />
-      <rect x="480" y="122" transform="translate(3,3)" width="180" style="clip-path:url(#clipPath19); fill:none; stroke:rgb(153,153,153);" rx="4" ry="4" height="58" />
-      <rect x="480" y="122" width="181" style="clip-path:url(#clipPath19); stroke:none;" rx="4" ry="4" height="59" />
-      <rect x="480" y="122" width="180" style="clip-path:url(#clipPath19); fill:none; stroke:black;" rx="4" ry="4" height="58" />
-      <text x="2" y="13" transform="translate(485,136)" style="font-size:13; clip-path:url(#clipPath20); fill:black; stroke:none;" xml:space="preserve">Andere Wissenskategorie</text>
-      <text x="62" y="28" transform="translate(485,136)" style="font-size:13; clip-path:url(#clipPath20); fill:black; stroke:none;" xml:space="preserve">wählen</text>
+      <rect x="460" y="36" width="241" style="clip-path:url(#clipPath4); stroke:none;" height="302" />
+      <rect x="460" y="36" width="240" style="clip-path:url(#clipPath4); fill:none; stroke:black;" height="301" />
+      <rect x="460" y="36" width="241" style="clip-path:url(#clipPath5); stroke:none;" height="15" />
+      <rect x="460" y="36" width="240" style="clip-path:url(#clipPath5); fill:none; stroke:black;" height="14" />
+      <text x="93" y="13" transform="translate(465,36)" style="font-size:13; clip-path:url(#clipPath6); fill:black; stroke:none;" xml:space="preserve">Spieler</text>
+      <rect x="480" y="122" transform="translate(3,3)" width="181" style="clip-path:url(#clipPath7); fill:rgb(153,153,153); stroke:none;" rx="4" ry="4" height="59" />
+      <rect x="480" y="122" transform="translate(3,3)" width="180" style="clip-path:url(#clipPath7); fill:none; stroke:rgb(153,153,153);" rx="4" ry="4" height="58" />
+      <rect x="480" y="122" width="181" style="clip-path:url(#clipPath7); stroke:none;" rx="4" ry="4" height="59" />
+      <rect x="480" y="122" width="180" style="clip-path:url(#clipPath7); fill:none; stroke:black;" rx="4" ry="4" height="58" />
+      <text x="2" y="13" transform="translate(485,136)" style="font-size:13; clip-path:url(#clipPath8); fill:black; stroke:none;" xml:space="preserve">Andere Wissenskategorie</text>
+      <text x="62" y="28" transform="translate(485,136)" style="font-size:13; clip-path:url(#clipPath8); fill:black; stroke:none;" xml:space="preserve">wählen</text>
+      <rect x="40" y="36" width="401" style="clip-path:url(#clipPath9); stroke:none;" height="302" />
+      <rect x="40" y="36" width="400" style="clip-path:url(#clipPath9); fill:none; stroke:black;" height="301" />
+      <rect x="40" y="36" width="401" style="clip-path:url(#clipPath10); stroke:none;" height="15" />
+      <rect x="40" y="36" width="400" style="clip-path:url(#clipPath10); fill:none; stroke:black;" height="14" />
+      <text x="105" y="13" transform="translate(45,36)" style="font-size:13; clip-path:url(#clipPath11); fill:black; stroke:none;" xml:space="preserve">Path of Enlightenment Spiel</text>
+      <polygon points=" 240 136 269 122 299 136 269 151 240 136" transform="translate(3,3)" style="fill:rgb(153,153,153); clip-path:url(#clipPath12); stroke:none;" />
+      <polygon points=" 240 136 269 122 299 136 269 151 240 136" transform="translate(3,3)" style="fill:none; clip-path:url(#clipPath12); stroke:rgb(153,153,153);" />
+      <circle transform="translate(3,3)" style="clip-path:url(#clipPath13); fill:rgb(153,153,153); stroke:none;" r="7" cx="167" cy="76" />
+      <circle transform="translate(3,3)" style="clip-path:url(#clipPath13); fill:none; stroke:rgb(153,153,153);" r="7" cx="167" cy="76" />
+      <rect x="76" y="242" transform="translate(3,3)" width="355" style="clip-path:url(#clipPath14); fill:rgb(153,153,153); stroke:none;" rx="4" ry="4" height="30" />
+      <rect x="76" y="242" transform="translate(3,3)" width="354" style="clip-path:url(#clipPath14); fill:none; stroke:rgb(153,153,153);" rx="4" ry="4" height="29" />
+      <circle transform="translate(3,3)" style="clip-path:url(#clipPath15); fill:rgb(153,153,153); stroke:none;" r="8.5" cx="149.5" cy="310.5" />
+      <circle transform="translate(3,3)" style="clip-path:url(#clipPath15); fill:none; stroke:rgb(153,153,153);" r="8.5" cx="149.5" cy="310.5" />
+      <polygon points=" 240 76 269 62 299 76 269 91 240 76" transform="translate(3,3)" style="fill:rgb(153,153,153); clip-path:url(#clipPath16); stroke:none;" />
+      <polygon points=" 240 76 269 62 299 76 269 91 240 76" transform="translate(3,3)" style="fill:none; clip-path:url(#clipPath16); stroke:rgb(153,153,153);" />
+      <polygon style="clip-path:url(#clipPath12); stroke:none;" points=" 240 136 269 122 299 136 269 151 240 136" />
+      <polygon style="fill:none; clip-path:url(#clipPath12); stroke:black;" points=" 240 136 269 122 299 136 269 151 240 136" />
+      <text x="6" y="13" transform="translate(60,113)" style="font-size:13; clip-path:url(#clipPath17); fill:black; stroke:none;" xml:space="preserve">Wissensstandanzeiger für</text>
+      <text x="3" y="28" transform="translate(60,113)" style="font-size:13; clip-path:url(#clipPath17); fill:black; stroke:none;" xml:space="preserve">geprüfte Wissenskategorie</text>
+      <text x="12" y="43" transform="translate(60,113)" style="font-size:13; clip-path:url(#clipPath17); fill:black; stroke:none;" xml:space="preserve">auf max. Wissensstufe?</text>
+      <circle style="clip-path:url(#clipPath13); fill:black; stroke:none;" r="7" cx="167" cy="76" />
+      <circle style="clip-path:url(#clipPath13); fill:none; stroke:black;" r="7" cx="167" cy="76" />
+      <rect x="76" y="242" width="355" style="clip-path:url(#clipPath14); stroke:none;" rx="4" ry="4" height="30" />
+      <rect x="76" y="242" width="354" style="clip-path:url(#clipPath14); fill:none; stroke:black;" rx="4" ry="4" height="29" />
+      <text x="0" y="13" transform="translate(81,249)" style="font-size:13; clip-path:url(#clipPath18); fill:black; stroke:none;" xml:space="preserve">Wissensstandanzeiger für Wissenskategorie erhöhen</text>
+      <circle style="clip-path:url(#clipPath15); stroke:none;" r="8.5" cx="149.5" cy="310.5" />
+      <circle style="clip-path:url(#clipPath15); fill:none; stroke:black;" r="8.5" cx="149.5" cy="310.5" />
+      <circle style="clip-path:url(#clipPath19); fill:black; stroke:none;" r="5.5" cx="149.5" cy="310.5" />
+      <polygon style="clip-path:url(#clipPath16); stroke:none;" points=" 240 76 269 62 299 76 269 91 240 76" />
+      <polygon style="fill:none; clip-path:url(#clipPath16); stroke:black;" points=" 240 76 269 62 299 76 269 91 240 76" />
+      <text x="3" y="13" transform="translate(265,102)" style="font-size:13; clip-path:url(#clipPath20); fill:black; stroke:none;" xml:space="preserve"> </text>
       <path d="M299 135 L480 135" style="fill:none; clip-path:url(#clipPath1); stroke:rgb(0,0,127);" />
       <polygon style="fill:rgb(0,0,127); clip-path:url(#clipPath21); stroke:none;" points=" 479 135 469 130 479 135 469 140 479 135" />
       <polygon style="fill:none; clip-path:url(#clipPath21); stroke:rgb(0,0,127);" points=" 479 135 469 130 479 135 469 140 479 135" />
