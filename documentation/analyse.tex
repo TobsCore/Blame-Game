@@ -77,6 +77,7 @@ Die letzten beiden Punkte wurden als \texttt{unwichtig} eingestuft, da diese das
 Das Spiel kommt nicht ohne die als \texttt{essentiell} gekennzeichneten Use Cases aus, da es ohne diese unspielbar ist. Ohne den Use Case \emph{Fragerunde} zum Beispiel, würde das Spiel keinen Gewinner und damit auch kein Ende finden.\\
 Die Spielvorbereitung ist wichtig, da hierüber das Spielgeschehen maßgeblich gesteuert wird, also wie viele Spieler, mit welchen Kategorien spielen, aber sind nicht essentiell, da man hier auch mit festen Werten ein spielbares Spiel entwickeln könnte, was jedoch wenig Freude bereiten würde.
 
+\newpage
 \section{Erste Iteration}
 Für die erste Iteration werden lediglich die als \texttt{essentiell} priorisierten Use Cases implementiert. Dies sind die Folgenden
 
@@ -90,7 +91,7 @@ Die Begründung für die Auswahl liegt in der Gewichtung, siehe hierzu \ref{sec:
 
 \newpage
 \section{Activity-Diagramme}
-\subsubsection{Startspieler bestimmen}
+\subsection{Startspieler bestimmen}
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=0.9\textwidth]{diagrams/Startspieler_bestimmen}
@@ -98,7 +99,7 @@ Die Begründung für die Auswahl liegt in der Gewichtung, siehe hierzu \ref{sec:
 \end{figure}
 
 \newpage
-\subsubsection{Spielzug machen}
+\subsection{Spielzug machen}
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=0.9\textwidth]{diagrams/Spielzug_machen}
@@ -106,7 +107,7 @@ Die Begründung für die Auswahl liegt in der Gewichtung, siehe hierzu \ref{sec:
 \end{figure}
 
 \newpage
-\subsubsection{Fragerunde}
+\subsection{Fragerunde}
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=0.8\textwidth]{diagrams/Fragerunde}
@@ -114,7 +115,7 @@ Die Begründung für die Auswahl liegt in der Gewichtung, siehe hierzu \ref{sec:
 \end{figure}
 
 \newpage
-\subsubsection{Wissensstreiter versetzen}
+\subsection{Wissensstreiter versetzen}
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=0.9\textwidth]{diagrams/Wissensstreiter_versetzen}
@@ -122,7 +123,7 @@ Die Begründung für die Auswahl liegt in der Gewichtung, siehe hierzu \ref{sec:
 \end{figure}
 
 \newpage
-\subsubsection{Wissensstand erhöhen}
+\subsection{Wissensstand erhöhen}
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=0.9\textwidth]{diagrams/Wissensstand_erhöhen}
@@ -139,25 +140,88 @@ Die Begründung für die Auswahl liegt in der Gewichtung, siehe hierzu \ref{sec:
 
 \newpage
 \section{System-Sequenz-Diagramme}
-\subsubsection{Startspieler bestimmen}
+\subsection{Startspieler bestimmen}
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=0.9\textwidth]{diagrams/Startspieler_bestimmen_sequenz}
   \end{center}
 \end{figure}
 
+\subsubsection{Operation: Spieler zum Würfeln auffordern}
+\begin{labeling}[:]{Verantwortlichkeit}
+\item [Verantwortlichkeit] Ermöglicht einem Spieler zu würfeln.
+\item [Referenzen] Use Case \texttt{Startspieler bestimmen}
+\item [Output] 
+\item [Vorbedingungen] keine
+\item [Nachbedingungen] Der Spieler hat die Möglichkeit einen Wurf zu tätigen
+\end{labeling}
+
+\subsubsection{Operation: Spieler würfelt (Würfeln)}
+\begin{labeling}[:]{Verantwortlichkeit}
+\item [Verantwortlichkeit] Initiiert einen Wurf und bestimmt ein Wurfergebnis
+\item [Referenzen] Use Cases \texttt{Startspieler bestimmen} und \texttt{Spielzug machen}
+\item [Output] Wurfergebnis
+\item [Vorbedingungen] Der Spieler ist an der reihe und darf würfeln
+\item [Nachbedingungen] Es gibt ein Wurfergebnis für den aktuellen Wurf
+\end{labeling}
+
 \newpage
-\subsubsection{Spielzug machen}
+\subsection{Spielzug machen}
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=0.9\textwidth]{diagrams/Spielzug_machen_sequenz}
   \end{center}
 \end{figure}
 
+\subsubsection{Operation: Erneut würfeln}
+\begin{labeling}[:]{Verantwortlichkeit}
+\item [Verantwortlichkeit] Initiiert einen neuen Wurf und bestimmt ein Wurfergebnis
+\item [Referenzen] Use Case \texttt{Spielzug machen}
+\item [Output] Wurfergebnis
+\item [Vorbedingungen] Der Spieler hat noch keinen Wissensstreiter auf dem Pfad und noch keine 3 mal gewürfelt
+\item [Nachbedingungen] Es gibt ein neues Wurfergebnis für den aktuellen Wurf, nach 3x würfeln ist der nächste Spieler dran oder ein Wissensstreiter wird versetzt
+\end{labeling}
+
+\subsubsection{Operation: Wissensstreiter versetzen}
+\begin{labeling}[:]{Verantwortlichkeit}
+\item [Verantwortlichkeit] Versetzt einen Wissensstreiter auf dem Pfad versetzt
+\item [Referenzen] Use Case \texttt{Spielzug machen}
+\item [Output] 
+\item [Vorbedingungen] Der Spieler hat min. einen Wissensstreiter auf dem Pfad, mit dem ein Zug möglich ist
+\item [Nachbedingungen] Der Wissensstreiter wurde versetzt und es wird ein neuer Spielzug oder eine Fragerunde initiiert
+\end{labeling}
+
 \newpage
-\subsubsection{Fragerunde}
+\subsection{Fragerunde}
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=0.8\textwidth]{diagrams/Fragerunde_sequenz}
   \end{center}
 \end{figure}
+
+\subsubsection{Operation: Wählt Kategorie aus}
+\begin{labeling}[:]{Verantwortlichkeit}
+\item [Verantwortlichkeit] Initiiert einen neuen Wurf und bestimmt ein Wurfergebnis
+\item [Referenzen] Use Case \texttt{Fragerunde}
+\item [Output] Gewählte Kategorie
+\item [Vorbedingungen] Der Spieler ist auf ein Feld mit einem gegnerischen Wissensstreiter gekommen
+\item [Nachbedingungen] Es wurde eine der 4 Wissenskategorien ausgewählt
+\end{labeling}
+
+\subsubsection{Operation: Beantwortet die gestellte Frage}
+\begin{labeling}[:]{Verantwortlichkeit}
+\item [Verantwortlichkeit] Es wird eine Antwort zu der Frage abgegeben
+\item [Referenzen] Use Case \texttt{Fragerunde}
+\item [Output] Antwort auf die Frage
+\item [Vorbedingungen] Es wurde eine Frage gestellt
+\item [Nachbedingungen] Die Antwort wird auf Richtigkeit geprüft. Wenn die Frage richtig beantwortet wurde, darf der Wissensstandanzeiger für die Kategorie erhöht werden. Falls die Kategorie schon auf dem Maximum ist darf der Spieler eine andere Kategorie auswählen.
+\end{labeling}
+
+\subsubsection{Operation: Wählt eine andere Kategorie für Wissensstandanzeiger}
+\begin{labeling}[:]{Verantwortlichkeit}
+\item [Verantwortlichkeit] Es wird eine andere Kategorie für die der Wissensstandanzeiger erhöht werden soll ausgewählt
+\item [Referenzen] Use Case \texttt{Fragerunde}
+\item [Output] Neu gewählte Kategorie
+\item [Vorbedingungen] Der Wissensstand für die aktuelle Kategorie ist auf max.
+\item [Nachbedingungen] Eine andere Wissenskategorie, für die der Wissensstandanzeiger nicht die max. Stufe hat, wurde ausgewählt
+\end{labeling}
