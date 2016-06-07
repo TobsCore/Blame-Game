@@ -1,0 +1,128 @@
+Spiel wird gestartet....
+Anzahl an Spielern: 3
+
+Spieler Spieler 1 beginnt.
+
+====
+Spieler 1 ist am Zug:
+
+Spieler 1: 0 von 3 Figuren im Spiel
+Spieler 2: 0 von 3 Figuren im Spiel
+Spieler 3: 0 von 3 Figuren im Spiel
+
+Zum Würfeln drücken Sie eine beliebige Taste: x
+Es wurde eine 3 gewürfelt.
+
+> Es befinden sich alle Wissensstreiter auf dem Heimatfeld - Erneut würfeln
+
+Zum Würfeln drücken Sie eine beliebige Taste: x
+Es wurde ein 2 gewürfelt.
+
+> Es befinden sich alle Wissensstreiter auf dem Heimatfeld - Erneut würfeln
+
+Zum Würfeln drücken Sie eine beliebige Taste: x
+Es wurde ein 3 gewürfelt.
+
+> Es wurde 3x gewürfelt. Der nächste Spieler ist dran
+
+====
+Spieler 2 ist am Zug:
+
+Spieler 1: 0 von 3 Figuren im Spiel
+Spieler 2: 0 von 3 Figuren im Spiel
+Spieler 3: 0 von 3 Figuren im Spiel
+
+Zum Würfeln drücken Sie eine beliebige Taste: x
+Es wurde eine 6 gewürfelt.
+
+> Ein Wissensstreiter wurde auf das Heimatfeld gezogen
+
+====
+Grün ist am Zug:
+
+Spieler 1: 0 von 3 Figuren im Spiel
+Spieler 2: 1 von 3 Figuren im Spiel
+Spieler 3: 0 von 3 Figuren im Spiel
+
+Zum Würfeln drücken Sie eine beliebige Taste: x
+Es wurde ein 2 gewürfelt.
+
+> Es befinden sich alle Wissensstreiter auf dem Heimatfeld - Erneut würfeln
+
+Zum Würfeln drücken Sie eine beliebige Taste: x
+Es wurde eine 6 gewürfelt.
+
+> Ein Wissensstreiter wurde auf das Heimatfeld gezogen
+
+====
+Spieler 1 ist am Zug:
+
+Spieler 1: 0 von 3 Figuren im Spiel
+Spieler 2: 1 von 3 Figuren im Spiel
+Spieler 3: 1 von 3 Figuren im Spiel
+
+Zum Würfeln drücken Sie eine beliebige Taste: x
+Es wurde eine 6 gewürfelt.
+
+> Ein Wissensstreiter wurde auf das Heimatfeld gezogen
+
+====
+Spieler 2 ist am Zug:
+
+Spieler 1: 1 von 3 Figuren im Spiel
+Spieler 2: 1 von 3 Figuren im Spiel
+Spieler 3: 1 von 3 Figuren im Spiel
+
+Zum Würfeln drücken Sie eine beliebige Taste: x
+Es wurde ein 2 gewürfelt.
+
+> Da nur ein Wissensstreiter auf dem Pfad ist, wird dieser vorgesetzt
+
+
+(Im weiteren Spielverlauf)
+
+====
+Spieler 1 ist am Zug:
+
+Spieler 1: 2 von 3 Figuren im Spiel
+Spieler 2: 1 von 3 Figuren im Spiel
+Spieler 3: 2 von 3 Figuren im Spiel
+
+Zum Würfeln drücken Sie eine beliebige Taste: x
+Es wurde eine 4 gewürfelt.
+
+> Wissensstreiter 1 auf Feld 16
+> Wissensstreiter 2 auf Feld 3
+Wissensstreiter-Nummer wählen: 3
+> Fehler: Invalide Eingabe!
+
+> Wissensstreiter 1 auf Feld 16
+> Wissensstreiter 2 auf Feld 3
+Wissensstreiter-Nummer wählen: 2
+> Wissensstreiter wurde vorgesetzt
+
+====
+Spieler 2 ist am Zug:
+
+Spieler 1: 2 von 3 Figuren im Spiel
+Spieler 2: 1 von 3 Figuren im Spiel
+Spieler 3: 2 von 3 Figuren im Spiel
+
+Zum Würfeln drücken Sie eine beliebige Taste: x
+Es wurde eine 4 gewürfelt.
+
+> Es würde eine Fragerunde beginnen. Es passiert nichts
+
+====
+Spieler 3 ist am Zug:
+
+Spieler 1: 2 von 3 Figuren im Spiel
+Spieler 2: 1 von 3 Figuren im Spiel
+Spieler 3: 2 von 3 Figuren im Spiel
+
+Zum Würfeln drücken Sie eine beliebige Taste: x
+Es wurde eine 6 gewürfelt.
+
+> Es würde eine Fragerunde beginnen. Es passiert nichts
+> Der Wissensstreiter wurde nicht auf das Heimatfeld gezogen
+
