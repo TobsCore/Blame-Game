@@ -1,31 +1,62 @@
 \chapter{Design}\label{chap:Design}
 
 \section{Architektur}
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=0.8\textwidth]{diagrams/Architecture}
+    \caption{Grobe Architektur des Systems}
+  \end{center}
+\end{figure}
 
 \section{Aufbereitung der Analyse und Systemoperationen}
 
 \subsection{Mockup}
 
-\subsection{System-Use-Case}
-
-\subsubsection{Use-Case Beschreibung}
+\subsection{System-Use-Case: Spielzug durchführen}
 \begin{labeling}[:]{Vorbedingungen}
-\item [Akteure]
-\item [Priorität]
-\item [Beschreibung]
-\item [Vorbedingungen]
+\item [Akteure] Model, View, Controller
+\item [Priorität] Hoch
+\item [Beschreibung] Nach dem das Spiel als Anwendung gestartet wurde, wird das Spiel zunächst vorbereitet. Den Spielern wird auf der Konsole mitgeteilt, welcher Spieler aktuell an der Reihe ist und wo sich seine Wissensstreiter befinden. Danach wird der aktuelle Spieler zum Würfeln aufgefordert. Er kann das Würfeln durch einen beliebigen Tastendruck auslösen, wobei dann ein Würfelergebnis zufällig bestimmt wird. Das Würfelergebnis wird ebenfalls auf der Konsole ausgegeben.
+Ist das Würfelergebnis gleich 6 und hat der aktuelle Spieler noch einen Wissensstreiter auf dem Heimatfeld und  ist sein Startfeld frei, dann wird ein Wissensstreiter des Spielers auf sein Heimatfeld gestellt. Der Spieler wird darüber auf der Konsole informiert. Ist das Heimatfeld belegt startet eine Fragerunde.
+Hat der Spieler alle Wissensstreiter auf dem Pfad, oder er hat eine Augenzahl kleiner als 6 gewürfelt, dann wird ihm eine Auswahlliste seiner Wissensstreiter auf der Konsole präsentiert und er kann durch Eingeben einer Nummer einen Wissensstreiter auswählen, den er versetzen möchte. Sollte der Wissensstreiter auf ein Feld kommen, welches bereits durch einen anderen Wissensstreiter belegt ist, beginnt eine Fragerunde.
+Hat der Spieler eine Augenzahl gewürfelt, die kleiner als 6 ist, und hat er noch alle Wissensstreiter auf seinen Heimatfeldern, dann wird er erneut zum würfeln aufgefordert bis er 3 mal in diesem Zug gewürfelt hat.
+Alle Eingaben des Spielers werden validiert. Ist eine Eingabe Fehlerhaft wird der Spieler erneut zur Eingabe aufgefordert.
+Ein Spieler wird über das Ende seines Zuges auf der Konsole informiert.
+\item [Vorbedingungen] Anwendung gestartet, Spiel vorbereitet
 \item [Offene Punkte]
 \end{labeling}
 
 \subsubsection{Use-Case Diagramm}
 
 \subsubsection{Activity Diagramme}
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=0.8\textwidth]{diagrams/Spielzug_machen_activity}
+    \caption{Aktivity Diagramm für Use-Case \"Spielzug machen\"}
+  \end{center}
+\end{figure}
 
 \subsection{Schnittstelle der Applikationsschicht}
 
 \subsubsection{System-Sequenz Diagramm}
 
-\subsubsection{Beschreibung der System-Operationen}
+\subsubsection{Operation: würfeln()}
+\begin{labeling}[:]{Verantwortlichkeit}
+\item [Parameter] -
+\item [Verantwortlichkeit] Es wird eine zufälliges Würfelergebnis bestimmt. 
+
+Ist das Würfelergebnis kleiner als 6 und befindet sich mindestens 1 Wissensstreiter des aktuellen Spielers schon auf dem Pfad, dann wird eine Liste mit allen versetzbaren Wissensstreitern des Spielers angezeigt. Der Spieler hat dann die Möglichkeit einen Wissensstreiter auszuwählen.
+
+Ist die Augenzahl kleiner als 6 und befinden sich noch alle Wissensstreiter des Spielers auf den Heimatfeldern, dann  wird noch einmal würfeln() ausgeführt, höchstens bis in dem Zug des aktuellen Spielers 3 mal würfeln() ausgeführt worden ist.
+
+Ist das Würfelergebnis gleich 6 und es befinden sich noch 1 Wissensstreiter des Spielers auf den Heimatfeldern, dann wird, sofern das Startfeld frei ist, ein Wissensstreiter auf das Startfeld gesetzt. Ist das Startfeld belegt, beginnt eine Fragerunde.
+
+Befinden sich alle Wissensstreiter auf dem Pfad, dann wird ganz unabhängig von der Augenzahl eine Liste mit allen Wissensstreitern, die vom Spieler versetzt werden können, ausgegeben.
+Der Spieler hat dann die Möglichkeit einen Wissensstreiter auszuwählen.
+\item [Ausnahmen]
+\item [Vorbedingungen] Es gibt einen aktuellen Spieler und das Spiel wurde initialisiert.
+\item [Nachbedingungen]
+\end{labeling}
 
 \section{Zustandsautomaten}
 
