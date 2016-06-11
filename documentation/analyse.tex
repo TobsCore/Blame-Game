@@ -149,20 +149,20 @@ Die Begründung für die Auswahl liegt in der Gewichtung, siehe hierzu \ref{sec:
 
 \subsubsection{Operation: Spieler zum Würfeln auffordern}
 \begin{labeling}[:]{Verantwortlichkeit}
-\item [Verantwortlichkeit] Ermöglicht einem Spieler zu würfeln.
+\item [Verantwortlichkeit] Ermöglicht einem Spieler zu würfeln bzw. einen Wurf zu initiieren. Dazu wird entweder ein Spieler aus der Spielerliste ausgewählt, sofern dieser Spieler nicht schon einmal gewürfelt hat. Haben alle Spieler aus der Spielerliste einmal gewürfelt, aber es wurden sich mehrere Spieler gemerkt, die noch einmal Würfel müssen, dann wird der Spieler von den gemerkten ausgewählt.
 \item [Referenzen] Use Case \texttt{Startspieler bestimmen}
-\item [Output] 
-\item [Vorbedingungen] keine
-\item [Nachbedingungen] Der Spieler hat die Möglichkeit einen Wurf zu tätigen
+\item [Output] Spieler der würfeln darf.
+\item [Vorbedingungen] Es gibt eine Spielerliste mit Spielern, die noch nicht gewürfelt haben, oder eine Liste mit gemerkten Spielern, die noch einmal würfeln müssen.
+\item [Nachbedingungen] Der Spieler hat die Möglichkeit einen Wurf zu tätigen.
 \end{labeling}
 
-\subsubsection{Operation: Spieler würfelt (Würfeln)}
+\subsubsection{Operation: Würfeln}
 \begin{labeling}[:]{Verantwortlichkeit}
-\item [Verantwortlichkeit] Initiiert einen Wurf und bestimmt ein Wurfergebnis
-\item [Referenzen] Use Cases \texttt{Startspieler bestimmen} und \texttt{Spielzug machen}
+\item [Verantwortlichkeit] Bestimmt ein Wurfergebnis für den Spieler, der den Wurf initiiert hat. Wenn ein neuer Höchstwert gewürfelt wurde (oder es noch keinen Höchstwert gibt), wird sich dieser als neuer gemerkt und alle Spieler die zuvor den alten Höchstwert gewürfelt hatten werden vergessen. Ist der gewürfelte nicht höher aber gleich dem aktuellen Höchstwert so wird sich der Spieler gemerkt. Haben alle Spieler mindestens einmal gewürfelt und es wurde sich nur noch ein Spieler gemerkt, so wird dieser gemerkte Spieler als Startspieler festgelegt.
+\item [Referenzen] Use Cases \texttt{Startspieler bestimmen}
 \item [Output] Wurfergebnis
-\item [Vorbedingungen] Der Spieler ist an der reihe und darf würfeln
-\item [Nachbedingungen] Es gibt ein Wurfergebnis für den aktuellen Wurf
+\item [Vorbedingungen] Es gibt eine Spielerliste mit Spielern, die noch nicht gewürfelt haben, oder es gibt eine Liste mit mehreren Spielern, die noch einmal würfeln müssen.
+\item [Nachbedingungen] Es gibt eine Liste mit mehreren Spielern, die noch einmal würfeln müssen, oder es wurde ein Startspieler bestimmt.
 \end{labeling}
 
 \newpage
