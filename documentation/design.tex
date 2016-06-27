@@ -7,10 +7,58 @@
     \caption{Grobe Architektur des Systems}
   \end{center}
 \end{figure}
+\newpage
 
 \section{Aufbereitung der Analyse und Systemoperationen}
 
 \subsection{Mockup}
+\begin{verbatim}
+  Spiel wird gestartet....
+  Anzahl an Spielern: 3
+
+  Spieler Spieler 1 beginnt.
+
+  ====
+  Spieler 1 ist am Zug:
+
+  Spieler 1: 0 von 3 Figuren im Spiel
+  Spieler 2: 0 von 3 Figuren im Spiel
+  Spieler 3: 0 von 3 Figuren im Spiel
+
+  Zum Würfeln drücken Sie eine beliebige Taste: x
+  Es wurde eine 3 gewürfelt.
+
+  > Es befinden sich alle Wissensstreiter auf dem Heimatfeld - Erneut würfeln
+
+  Zum Würfeln drücken Sie eine beliebige Taste: x
+  Es wurde ein 2 gewürfelt.
+
+  > Es befinden sich alle Wissensstreiter auf dem Heimatfeld - Erneut würfeln
+
+  Zum Würfeln drücken Sie eine beliebige Taste: x
+  Es wurde ein 3 gewürfelt.
+
+  > Es wurde 3x gewürfelt. Der nächste Spieler ist dran
+
+  ====
+  Spieler 2 ist am Zug:
+
+  Spieler 1: 0 von 3 Figuren im Spiel
+  Spieler 2: 0 von 3 Figuren im Spiel
+  Spieler 3: 0 von 3 Figuren im Spiel
+
+  Zum Würfeln drücken Sie eine beliebige Taste: x
+  Es wurde eine 6 gewürfelt.
+
+  > Ein Wissensstreiter wurde auf das Heimatfeld gezogen
+
+  ====
+  Grün ist am Zug:
+
+  Spieler 1: 0 von 3 Figuren im Spiel
+  Spieler 2: 1 von 3 Figuren im Spiel
+  Spieler 3: 0 von 3 Figuren im Spiel
+\end{verbatim}
 
 \subsection{System-Use-Case: Spielzug durchführen}
 \begin{labeling}[:]{Vorbedingungen}
@@ -26,24 +74,35 @@ Ein Spieler wird über das Ende seines Zuges auf der Konsole informiert.
 \item [Offene Punkte]
 \end{labeling}
 
+\newpage
 \subsubsection{Use-Case Diagramm}
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=0.8\textwidth]{design/spielzug_machen_system_usecase}
+    \caption{Use-Case \"Spielzug machen\"}
+  \end{center}
+\end{figure}
+\newpage
 
 \subsubsection{Activity Diagramme}
 \begin{figure}[h]
   \begin{center}
-    \includegraphics[width=0.8\textwidth]{diagrams/Ablauf_Spielzug_machen_10062016}
-    \caption{Aktivity Diagramm für Use-Case \"Spielzug machen\"}
+    \includegraphics[width=0.6\textwidth]{diagrams/Ablauf_Spielzug_machen_10062016}
   \end{center}
 \end{figure}
+\newpage
 
 \subsection{Schnittstelle der Applikationsschicht}
+
+Was kommt hier rein?!?!?!
+\newpage
 
 \subsubsection{System-Sequenz Diagramm}
 
 \subsubsection{Operation: würfeln()}
 \begin{labeling}[:]{Verantwortlichkeit}
 \item [Parameter] -
-\item [Verantwortlichkeit] Es wird eine zufälliges Würfelergebnis bestimmt. 
+\item [Verantwortlichkeit] Es wird ein zufälliges Würfelergebnis bestimmt.
 
 Ist das Würfelergebnis kleiner als 6 und befindet sich mindestens 1 Wissensstreiter des aktuellen Spielers schon auf dem Pfad, dann wird eine Liste mit allen Wissensstreitern des Spielers, die sich auf dem Pfad befinden, angezeigt. Der Spieler hat dann die Möglichkeit einen Wissensstreiter auszuwählen, indem er die Nummer des Wissensstreiters angibt.
 
@@ -71,11 +130,38 @@ Nach dem Versetzen oder der Fragerunde wird der Spieler gewechselt und der aktue
 \end{labeling}
 
 \section{Zustandsautomaten}
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=0.95\textwidth]{design/spielzug_machen_state_machine}
+    \caption{Zustandsautomat für Use-Case \"Spielzug machen\"}
+  \end{center}
+\end{figure}
+\newpage
 
 \section{Detailed Design und das Objektmodell}
-
 \subsection{Sequenz- und Kommunikationsdiagramm}
+\begin{figure}[h]
+    \includegraphics[width=1.1\textwidth]{design/MainSequence}
+    \caption{Das \texttt{Main} Sequenz Diagramm}
+\end{figure}
+\newpage
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=1.1\textwidth]{design/MainInitSequence}
+    \caption{Das \texttt{Main Init} Sequenz Diagramm}
+  \end{center}
+\end{figure}
+\newpage
+
 
 \subsection{Design-Objektmodeel}
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=1\textwidth]{design/ClassObjectDiagram}
+    \caption{Das Klassen-Objekt-Diagramm}
+  \end{center}
+\end{figure}
+\newpage
 
 \section{Implementierung der Oberfläche}
+Die Implementierung kann man dem abgegebenem Jar Programm entnehmen.
